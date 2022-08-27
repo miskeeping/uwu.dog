@@ -1,0 +1,48 @@
+
+            .bd:not(bts) {
+                background: url("bg.gif") no-repeat center #181818;
+            }
+            .obd:not(bts) {
+                background: url("other_bg.gif") no-repeat center #181818;
+                margin: 100px
+            }
+            body {
+                background: #181818
+            }
+
+            * {
+                font-family: Arial;
+                color: rgb(255, 0, 68);
+                font-size: 120%;
+                padding: 0.15%;
+                text-align: center;
+                text-underline-offset: 2px;
+                text-decoration: none;
+                text-decoration-color: #f04;
+            }
+
+            .l:hover {
+                background: linear-gradient(to right, #f04, #0bf, #0fb, #f0b, #f04, #0bf, #0fb, #f0b);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color:transparent;
+                animation: rainbow_animation 1.69s linear infinite;
+                animation-fill-mode: both;
+                background-size: 6969% 666%;
+                -webkit-text-stroke: 2px #fff;
+                letter-spacing: 5px;
+            }
+                /* i very much stole this from stackoverflow, thanks strange */
+                @keyframes rainbow_animation {
+                    0%,100% {
+                        background-position: 0 0;
+                    }
+
+                    50% {
+                        background-position: 100% 0;
+                    }
+            }
+            img:hover {
+                margin: auto;
+                box-shadow: 0 0 2px 1px rgb(255, 255, 255);
+            }
