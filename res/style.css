@@ -19,6 +19,8 @@
                 text-underline-offset: 2px;
                 text-decoration: none;
                 text-decoration-color: #f04;
+                cursor:url('/res/mushroom.cur'), pointer
+
             }
 
             .l:hover {
