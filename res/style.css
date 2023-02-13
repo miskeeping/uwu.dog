@@ -1,6 +1,7 @@
 
             .bd:not(bts) {
                 background: url("bg.gif") no-repeat center #181818;
+
             }
             .obd:not(bts) {
                 background: url("other_bg.gif") no-repeat center #181818;
@@ -12,13 +13,14 @@
 
             * {
                 font-family: Arial;
-                color: #ff2862;
+                color: #f04;
                 font-size: 120%;
                 padding: 0.15%;
+                text-shadow: 1px 1px 2px;
                 text-align: center;
                 text-underline-offset: 2px;
                 text-decoration: none;
-                text-decoration-color: #ff3369;
+                text-decoration-color: #f04;
                 cursor:url('/res/mushroom.cur'), pointer
 
             }
