@@ -12,13 +12,13 @@
 
             * {
                 font-family: Arial;
-                color: rgb(255, 0, 68);
+                color: #ff2862;
                 font-size: 120%;
                 padding: 0.15%;
                 text-align: center;
                 text-underline-offset: 2px;
                 text-decoration: none;
-                text-decoration-color: #f04;
+                text-decoration-color: #ff3369;
                 cursor:url('/res/mushroom.cur'), pointer
 
             }
